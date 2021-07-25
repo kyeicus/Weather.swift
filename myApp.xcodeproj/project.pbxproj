@@ -13,6 +13,7 @@
 		912A9B852678B3EB00609892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912A9B842678B3EB00609892 /* Preview Assets.xcassets */; };
 		912A9B902678B3EB00609892 /* myAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A9B8F2678B3EB00609892 /* myAppTests.swift */; };
 		912A9B9B2678B3EB00609892 /* myAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A9B9A2678B3EB00609892 /* myAppUITests.swift */; };
+		91BA215B26ACE4BB0023EB40 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA215A26ACE4BB0023EB40 /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		912A9B962678B3EB00609892 /* myAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		912A9B9A2678B3EB00609892 /* myAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAppUITests.swift; sourceTree = "<group>"; };
 		912A9B9C2678B3EB00609892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BA215A26ACE4BB0023EB40 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				912A9B812678B3EB00609892 /* Assets.xcassets */,
 				912A9B862678B3EB00609892 /* Info.plist */,
 				912A9B832678B3EB00609892 /* Preview Content */,
+				91BA215A26ACE4BB0023EB40 /* WeatherButton.swift */,
 			);
 			path = myApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				912A9B802678B3E900609892 /* ContentView.swift in Sources */,
 				912A9B7E2678B3E900609892 /* myAppApp.swift in Sources */,
+				91BA215B26ACE4BB0023EB40 /* WeatherButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = myApp.myApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = myApp.myApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

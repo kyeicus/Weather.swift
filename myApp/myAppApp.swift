@@ -12,6 +12,8 @@ struct myAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                
+             
         }
     }
 }
